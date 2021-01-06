@@ -1,0 +1,7 @@
+2021-01-06 15:09:42,015 [INFO] root: Loading config from configs/encoder_decoder_nn_lite.ini
+2021-01-06 15:09:42,017 [INFO] Run_RNN_model_Lite.py: config header: nn
+2021-01-06 15:09:42,017 [DEBUG] Run_RNN_model_Lite.py: self.epochs = 2500
+2021-01-06 15:09:42,017 [DEBUG] Run_RNN_model_Lite.py: self.batch_size = 256
+2021-01-06 15:09:42,018 [DEBUG] Run_RNN_model_Lite.py: self.n_mixture = 3
+2021-01-06 15:09:42,018 [DEBUG] Run_RNN_model_Lite.py: self.learning_rate = 0.000100
+2021-01-06 15:09:43,312 [INFO] root: Using device /cpu:0 for main computations
