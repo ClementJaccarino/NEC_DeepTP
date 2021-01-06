@@ -15,6 +15,12 @@ Eprint = {arXiv:1812.11670},
 }
 ```
 
+Before running the application we need to create the environnment using conda :
+
+```
+conda create --name <env> --file requirements.txt
+```
+
 Inference framework:
 
 ![Inference](https://github.com/yulinliu101/DeepTP/blob/master/output_figs/Framework%20%E2%80%93%20Inference.gif)
