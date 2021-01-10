@@ -14,15 +14,26 @@ Eprint = {arXiv:1812.11670},
 }
 ```
 
-Before running the application we need to create the environnment using conda :
+##Step to run the application
+The environment is setup to run on linux64.
+
+Before creating the environment be sure to use up to date version of conda.
+```
+conda update conda --all
+conda update anaconda
+```
+
+###Creating the environment:
 
 ```
-conda create --name <env> --file requirements.txt
+conda env create --file environment.yaml
 ```
 
-To train from scratch:
-
+###Running the application:
 ```
 cd src
 python Run_RNN_model_Lite.py --train_or_predict train --config configs/encoder_decoder_nn_lite.ini
 ```
+
+###Configuring the application:
+You can configure the application inside the encoder_decoder_nn_lite.ini file located in the configs folder. 

@@ -115,8 +115,6 @@ class trainRNN:
         
         # set up GPU if available
         self.tf_device = str(parser.get(config_header, 'tf_device'))
-        print("------------------------------ THIS IS THE DEVICE USED ----------------------")
-        print(self.tf_device)
         # optimizer
         self.beta1 = parser.getfloat(config_header, 'beta1')
         self.beta2 = parser.getfloat(config_header, 'beta2')
