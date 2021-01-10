@@ -35,5 +35,5 @@ cd src
 python Run_RNN_model_Lite.py --train_or_predict train --config configs/encoder_decoder_nn_lite.ini
 ```
 
-###Configuring the application:
+### Configuring the application:
 You can configure the application inside the encoder_decoder_nn_lite.ini file located in the configs folder. 
