@@ -45,7 +45,7 @@ class trainRNN:
         self.set_up_directories(self.model_name)
         # if don't have gpu, then set device to be cpu
         # if not check_if_gpu_available(self.tf_device):
-        self.tf_device = '/gpu:0'
+        # self.tf_device = '/cpu:0'
         logger.info('Using device %s for main computations', self.tf_device)
         
         if not self.sample_traj:
@@ -115,6 +115,8 @@ class trainRNN:
         
         # set up GPU if available
         self.tf_device = str(parser.get(config_header, 'tf_device'))
+        print("------------------------------ THIS IS THE DEVICE USED ----------------------")
+        print(self.tf_device)
         # optimizer
         self.beta1 = parser.getfloat(config_header, 'beta1')
         self.beta2 = parser.getfloat(config_header, 'beta2')

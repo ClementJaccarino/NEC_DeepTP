@@ -1,5 +1,0 @@
-if (paramId==131 || paramId==132 || paramId ==129212){
-    write "/media/liuyulin101/YulinLiu/WindData/DATA/filtered_weather_data/temp.grb";
-}
-
-
